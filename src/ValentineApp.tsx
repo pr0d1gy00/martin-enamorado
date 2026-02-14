@@ -40,7 +40,7 @@ export default function ValentineApp() {
   }
 
   return (
-    <div className="h-screen w-full bg-gradient-to-b from-[#FFB6C1] to-[#FF69B4] flex flex-col items-center justify-center p-4 overflow-hidden relative ">
+    <div className="w-full bg-gradient-to-b from-[#FFB6C1] to-[#FF69B4] flex flex-col items-center justify-center p-4 overflow-hidden relative ">
       
 
       {/* Tarjeta Principal con efecto Glassmorphism */}
@@ -59,11 +59,11 @@ export default function ValentineApp() {
         </div>
 
         {/* Botones */}
-        <div className="flex flex-row items-center justify-center gap-4 w-full relative">
+        <div className="flex flex-wrap items-center justify-center gap-4 w-full relative">
           
           {/* Botón SÍ (Crece dinámicamente) */}
           <button
-            className="bg-black text-white font-bold rounded-full hover:bg-gray-800 transition-all duration-300 shadow-lg z-50"
+            className="bg-black text-white font-bold rounded-full hover:bg-gray-800 transition-all duration-300 shadow-lg z-50 max-w-full flex items-center justify-center"
             style={{ 
               fontSize: `${yesButtonSize}px`,
               padding: `${yesButtonSize / 2}px ${yesButtonSize}px` // El padding también crece
