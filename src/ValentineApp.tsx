@@ -40,7 +40,7 @@ export default function ValentineApp() {
   }
 
   return (
-    <div className="w-full bg-gradient-to-b from-[#FFB6C1] to-[#FF69B4] flex flex-col items-center justify-center p-4 overflow-hidden relative ">
+    <div className="min-h-screen w-full bg-gradient-to-b from-[#FFB6C1] to-[#FF69B4] flex flex-col items-center justify-center p-4 overflow-hidden relative ">
       
 
       {/* Tarjeta Principal con efecto Glassmorphism */}
